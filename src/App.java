@@ -20,7 +20,7 @@ public class App {
         String[] productos = new String[tam];
         int[] cantProductos = new int[tam];
         for (int i = 0; i < productos.length; i++) {
-            System.out.println("Ingrese el nombre del producto" + (i+1));
+            System.out.println("Ingrese el nombre del producto :" + (i+1));
             productos[i] = leer.nextLine();
             System.out.println("Ingrese la cantidad del producto");
             cantProductos[i] = leer.nextInt();
